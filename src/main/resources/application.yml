@@ -1,0 +1,13 @@
+spring:
+ application:
+  name: pandevs
+ 
+ datasource:
+  url: jdbc:mysql://localhost:3306/pandelovers
+  username: root
+  password: Rmkive7080;
+ 
+ jpa:
+  hibernate:
+   #ddl-auto: create
+   ddl-auto: update
